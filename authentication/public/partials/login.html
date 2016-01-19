@@ -1,0 +1,17 @@
+
+<div ng-controller="logincontroller">
+<form namel="login-form" method="post" action='' novalidate>
+<div class="box">
+<h1>Dashboard</h1>
+
+<h4>Email:<input type="text" name="username" value="username" ng-model="username" required class="email" /></h4>
+  
+<h4>Password:<input type="password" name="password" value="password" ng-model="password" required class="email" /></h4>
+
+<a href="/profile" class="btn" ng-click="login()"> Sign In </a>
+<a href="/register" id="btn2" > Sign Up</a>
+</div> 
+  
+</form>
+
+<p>Forgot your password? <u style="color:#f1c40f;">Click Here!</u></p>
