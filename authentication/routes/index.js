@@ -52,7 +52,7 @@ var transporter = nodemailer.createTransport("SMTP",{
     service: 'Gmail',
     auth: {
         user: 'mss.testing2016@gmail.com ',
-        pass: '******'
+        pass: '*******'
     }
 });
 
